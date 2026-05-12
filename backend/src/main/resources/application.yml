@@ -1,0 +1,12 @@
+server:
+  port: 8007
+
+spring:
+  application:
+    name: meeting-room-booking
+
+meeting:
+  approval:
+    timeout-minutes: 30
+  check-in:
+    timeout-minutes: 10
